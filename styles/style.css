@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    color: inherit;
+}
+.wrapper {
+    width: 96%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header .top_bar {
+    background: #141518;
+    color: #fff;
+}
+header .top_bar .wrapper {
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_profiles {
+    font-size: 14px;
+}
+.social_profiles a {
+    margin-right: 20px;
+}
+.search form input.search_form {
+    border: 0;
+    background: transparent;
+    font-size: 13px;
+    color: #989797;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    width: 130px;
+}
+.search form input.search_form::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #989797;
+    font-style: italic;
+}
+
+.search form input.search_form::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #989797;
+    font-style: italic;
+}
+
+.search form input.search_form:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #989797;
+    font-style: italic;
+}
+
+.search form input.search_form:-moz-placeholder {
+    /* Firefox 18- */
+    color: #989797;
+    font-style: italic;
+}
+.button {
+    background: transparent;
+    color: #fff;
+    border: 0;
+}
+.logo {
+    min-height: 211px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1 {
+    display: none;
+}
+nav {
+    height: 63px;
+    border-top: 1px solid #e7e7e7; 
+    border-bottom: 1px solid #e7e7e7; 
+
+}
+nav ul.menu {
+    text-align: center;
+    font-size: 0;
+}
+nav ul.menu li {
+    display: inline-block;
+    font-size: 13px;
+}
+nav ul.menu li a {
+    color: #141417;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    padding-right: 22px;
+    padding-left: 22px;
+    display: block;
+    min-height: 63px;
+    line-height: 63px;
+}
