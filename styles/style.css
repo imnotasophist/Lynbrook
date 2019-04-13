@@ -201,6 +201,7 @@ main .wrapper {
 }
 section.content {
     width: 67.52%;
+    margin-bottom: 90px;
 }
 aside {
     width: 27.35%;
@@ -236,11 +237,8 @@ main .wrapper section.content article .post_data p {
     margin-bottom: 30px;
 }
 /* Trending */
-.trending .trending_title {
-    text-align: center;
-    text-transform: uppercase;
-    color: #000;
-    font-weight: 700;
+.trending {
+    padding-bottom: 10px;
 }
 .trending .trending_list {
     display: flex;
@@ -289,4 +287,86 @@ main .wrapper section.content article .post_data p {
 .trending .trending_list article img {
     max-width: 100%;
     height: auto;
+}
+.trending_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.trending_heading .line {
+    flex-grow: 1;
+    height: 1px;
+    background: #e7e7e7;
+}
+.trending_heading .trending_title {
+    text-transform: uppercase;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #262626;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.15em;
+}
+/* Pagination */
+.pagination {
+    font-size: 0;
+}
+.pagination li {
+    display: inline-block;
+    font-size: 12px;
+    color: #7e7e7e;
+    font-family: 'Cabin', sans-serif;
+    border: 1px solid #e7e7e7;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 8px;
+}
+.pagination li.active {
+    background: #b08672;
+    border-color: #b08672;
+    color: #fff;
+}
+.pagination li a {
+    text-decoration: none;
+    display: block;
+}
+/* Footer */
+footer .insta_feed {
+    display: flex;
+}
+footer .insta_feed .item {
+    width: 12.5%;
+}
+footer .insta_feed .item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+footer .footer_social {
+    background: #141518;
+}
+footer .footer_social .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+footer .footer_social .wrapper .item_social {
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    color: #989c9b;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+footer .footer_social .wrapper .item_social i {
+    margin-bottom: 20px;
+    color: #fff;
 }
